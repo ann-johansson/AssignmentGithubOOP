@@ -14,7 +14,7 @@ namespace AssignmentGithubOOP
         public string mythOrigin; // Origin of the myth
         public string mythFact; // Interesting fact about the myth
 
-        public void writeOutMyth() // Method to write out the myth information
+        public virtual void writeOutMyth() // Method to write out the myth information
         {
             Console.WriteLine($"Now I am gonna tell you an interesting fact about {mythName}, a myth which originates from {mythOrigin}. {mythFact}");
         }
